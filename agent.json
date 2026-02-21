@@ -1,0 +1,49 @@
+{
+  "name": "SIXPERCENT",
+  "description": "AI-powered real estate platform. $995 flat fee to sell your home — no 6% commission. Matches buyers and sellers using AI. Covers US and Costa Rica.",
+  "url": "https://api.sixpercent.ai/api",
+  "version": "1.0.0",
+  "protocolVersion": "0.3.0",
+  "defaultInputModes": ["text/plain", "application/json"],
+  "defaultOutputModes": ["text/plain", "application/json"],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "skills": [
+    {
+      "id": "property_search",
+      "name": "Property Search",
+      "description": "Search for properties across US and Costa Rica markets",
+      "tags": ["real-estate", "search", "properties", "homes"],
+      "examples": ["Find 3-bedroom homes in Austin TX under $500k", "Search beachfront properties in Guanacaste Costa Rica"]
+    },
+    {
+      "id": "buyer_matching",
+      "name": "Buyer Matching",
+      "description": "AI-powered matching of buyers with suitable properties based on preferences and behavior",
+      "tags": ["real-estate", "matching", "buyers", "AI"],
+      "examples": ["Match this buyer profile with available listings", "Find buyers interested in luxury condos"]
+    },
+    {
+      "id": "seller_listing",
+      "name": "Seller Listing",
+      "description": "List properties for sale at a flat $995 fee instead of traditional 6% commission",
+      "tags": ["real-estate", "listing", "selling", "flat-fee"],
+      "examples": ["List my home for sale", "What does it cost to sell with SIXPERCENT?"]
+    },
+    {
+      "id": "market_analysis",
+      "name": "Market Analysis",
+      "description": "AI-driven real estate market analysis for US and Costa Rica markets",
+      "tags": ["real-estate", "market", "analysis", "pricing"],
+      "examples": ["What is the market trend in Miami?", "Analyze property values in San Jose Costa Rica"]
+    }
+  ],
+  "provider": {
+    "organization": "SIXPERCENT",
+    "url": "https://sixpercent.ai"
+  },
+  "documentationUrl": "https://sixpercent.ai",
+  "supportsAuthenticatedExtendedCard": false
+}
